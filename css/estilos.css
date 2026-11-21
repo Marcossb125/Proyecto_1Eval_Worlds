@@ -113,7 +113,7 @@ a {
 .contenedor-seccion {
     margin-top: 5vh;
     width: 100%;
-    height: 23%;
+    height: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,19 +121,9 @@ a {
 }
 
 .contenedor-seccion2 {
-    margin-top: 5vh;
-    width: 100%;
-    height: 38%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.contenedor-seccion-3 {
     margin-top: 10vh;
     width: 100%;
-    height: 40%;
+    height: 33%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -301,7 +291,6 @@ a {
     .contenedor-cuerpo,
     .contenedor-seccion,
     .contenedor-seccion2,
-    .contenedor-seccion-3,
     .seccion-historia,
     .seccion-equipos,
     .bloque-worlds,
@@ -379,7 +368,6 @@ a {
     .contenedor-foto-fondo-2,
     .contenedor-seccion,
     .contenedor-seccion2,
-    .contenedor-seccion-3,
     .seccion-historia,
     .seccion-equipos,
     .bloque-worlds,
