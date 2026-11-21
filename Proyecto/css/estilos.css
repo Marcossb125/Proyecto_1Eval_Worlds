@@ -1,0 +1,413 @@
+@import url('https://api.fontshare.com/v2/css?f[]=zodiak@300..800&display=swap');
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../imagenes/Worlds-cabecera-edit.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Zodiak", serif;
+    color: white;
+    padding: 4px;
+}
+
+h2,
+h3 {
+    font-family: "Zodiak", serif;
+    color: white;
+}
+
+a {
+    font-family: "Zodiak", serif;
+}
+
+.foot {
+    height: 20vh;
+    width: 100%;
+    background-color: #6B4A00;
+    border: solid 2px black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-foto-fondo-1 {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background-color: lightgray;
+}
+
+.contenedor-foto-fondo-2 {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background-color: lightgray;
+}
+
+
+.contenedor-cuerpo {
+    height: 100%;
+    width: 60%;
+    background-color: #BA9131;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-left: solid 2px black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-contenido {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 250vh;
+
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.foto-equipo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.contenedor-navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #D5B15F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black 2px;
+    box-sizing: border-box;
+}
+
+.bloque-navbar {
+    margin: 1vh;
+}
+
+.contenedor-seccion {
+    margin-top: 5vh;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor-seccion2 {
+    margin-top: 10vh;
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloque-worlds {
+    width: 80%;
+    height: 100%;
+    background-color: #8C6817;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.bloque-foto {
+    width: 100%;
+    height: 50%;
+}
+
+.bloque-texto {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid black 2px;
+    box-sizing: border-box;
+}
+
+.bloque-titulo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloque-titulo-equipo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid black 2px;
+}
+
+.seccion-historia {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+
+}
+
+.bloque-historia {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8C6817;
+    border: solid black 2px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.seccion-equipos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3vw;
+
+}
+
+.bloque-equipo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #8C6817;
+    border: solid black 2px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.bloque-jugadores {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+
+.foto-jugador {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.jugador {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
+    width: 100%;
+    margin: 0;
+}
+
+.foto-red {
+    width: 50px;
+    height: 50px;
+}
+
+.redes {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.web-juego {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin: 3vw;
+}
+
+.nombre {
+    margin: 3vw;
+    color: white;
+    font-size: 15px;
+    font-family: "Zodiak", serif;
+    padding: 4px;
+}
+
+.foto-LoL {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .contenedor-contenido,
+    .contenedor-cuerpo,
+    .contenedor-seccion,
+    .contenedor-seccion2,
+    .seccion-historia,
+    .seccion-equipos,
+    .bloque-worlds,
+    .bloque-historia,
+    .bloque-equipo,
+    .bloque-foto,
+    .bloque-texto {
+        height: auto;
+    }
+
+    .contenedor-foto-fondo-1,
+    .contenedor-foto-fondo-2 {
+        display: none;
+    }
+
+    .contenedor-cuerpo {
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
+
+    .contenedor-navbar {
+        height: auto;
+        padding: 8px 4px;
+        justify-content: space-around;
+    }
+
+    .bloque-navbar {
+        font-size: 12px;
+        text-align: center;
+        margin: 2px;
+    }
+
+    .foot {
+        height: auto;
+        flex-direction: column;
+        padding: 15px 0;
+        gap: 10px;
+    }
+
+    .seccion-historia,
+    .seccion-equipos {
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .bloque-worlds,
+    .bloque-historia,
+    .bloque-equipo {
+        width: 90%;
+        padding-bottom: 15px;
+    }
+
+    .bloque-historia .foto,
+    .foto-LoL {
+        height: auto;
+        max-height: 180px;
+    }
+
+    .foto-equipo {
+        height: 80px;
+    }
+
+    .bloque-titulo-equipo {
+        height: auto;
+        padding: 8px 0;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1199px) {
+
+    .contenedor-contenido,
+    .contenedor-cuerpo,
+    .contenedor-foto-fondo-1,
+    .contenedor-foto-fondo-2,
+    .contenedor-seccion,
+    .contenedor-seccion2,
+    .seccion-historia,
+    .seccion-equipos,
+    .bloque-worlds,
+    .bloque-historia,
+    .bloque-equipo,
+    .bloque-foto,
+    .bloque-texto {
+        height: auto;
+    }
+
+    .seccion-historia {
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .bloque-historia {
+        width: 80%;
+    }
+
+    .bloque-historia .foto,
+    .foto-LoL {
+        height: auto;
+        max-height: 180px;
+    }
+
+    .seccion-equipos {
+        flex-wrap: wrap;
+    }
+
+    .bloque-equipo {
+        width: 44%;
+        padding-bottom: 15px;
+    }
+
+    .foto-equipo {
+        height: 80px;
+    }
+
+    .bloque-titulo-equipo {
+        height: auto;
+        padding: 8px 0;
+    }
+}
