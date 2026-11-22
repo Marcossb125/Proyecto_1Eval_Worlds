@@ -25,10 +25,14 @@ p {
     font-weight: bold;
 }
 
-h2,
-h3 {
+h2 {
     font-family: "Zodiak", serif;
     color: black;
+}
+
+h3 {
+    font-family: "Zodiak", serif;
+    color: white;
 }
 
 a {
@@ -38,7 +42,7 @@ a {
 .foot {
     height: 20vh;
     width: 100%;
-    background-color: #6B4A00;
+    background-color: #6B4B00;
     border: solid 2px black;
     box-sizing: border-box;
     display: flex;
@@ -52,7 +56,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #D5B15F;
+    background-color: #D7B158;
 
 }
 
@@ -115,7 +119,7 @@ a {
 .contenedor-navbar {
     height: 10vh;
     width: 100%;
-    background-color: #D5B15F;
+    background-color: #D7B158;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -150,7 +154,7 @@ a {
 .bloque-worlds {
     width: 80%;
     height: 100%;
-    background-color: #8C6817;
+    background-color: #956F17;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,7 +212,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8C6817;
+    background-color: #956F17;
     border: solid black 2px;
     box-sizing: border-box;
     flex-direction: column;
@@ -231,7 +235,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: #8C6817;
+    background-color: #956F17;
     border: solid black 2px;
     box-sizing: border-box;
     flex-direction: column;
